@@ -1,0 +1,333 @@
+/* General body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Admin Panel Container */
+.admin-panel {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.admin-panel h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2d3748;
+}
+/* General reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Container for all pages */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Page titles */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+/* Form fields */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 12px 0 6px;
+  font-weight: 500;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+input[type="file"] {
+  padding: 4px;
+}
+
+/* Buttons */
+button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #343a40;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Data cards (for ViewData page) */
+.data-card {
+  background-color: #fafafa;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.data-card p {
+  margin: 6px 0;
+}
+
+.data-card img,
+.data-card video {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+/* Role dropdown */
+.role-dropdown {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Admin Panel user list */
+.user-row {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+
+.user-row:last-child {
+  border-bottom: none;
+}
+
+.user-role {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .container {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a {
+    margin: 8px 0 0 0;
+  }
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #2b6cb0;
+  color: white;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+tr:hover {
+  background-color: #edf2f7;
+}
+
+/* Dropdown */
+select {
+  padding: 6px 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Success/Error message */
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-panel {
+    padding: 10px;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  select {
+    width: 100%;
+  }
+}
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Centered card-like container */
+.container {
+  background-color: white;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Titles */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Data card (for ViewData page) */
+.data-card {
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.data-card img, .data-card video {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+/* Navbar (if needed) */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+

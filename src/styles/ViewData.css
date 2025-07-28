@@ -1,0 +1,37 @@
+.view-data-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.data-item {
+  background-color: #fff;
+  padding: 16px;
+  border: 1px solid #ddd;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.delete-button {
+  padding: 6px 12px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  float: right;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
